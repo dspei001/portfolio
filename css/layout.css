@@ -169,7 +169,7 @@ header .scrolldown a:hover{
 }
 
 /* hide toggle button */
-#nav-wrap > a.mobile-btn{
+#nav-wrap a.mobile-btn{
 	display: none;
 }
 
