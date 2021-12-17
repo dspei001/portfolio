@@ -35,7 +35,7 @@ header{
 	height: 800px;
 	min-height: 500px;
 	width: 100%;
-	background: #161415 url(../images/header-background.jpg) no-repeat top center;
+	background: #161415 url(https://cdn.wallpapersafari.com/14/59/wn2dz6.jpg) no-repeat top center;
 	background-size: cover !important;
 	-webkit-background-size: cover !important;
 	text-align: center;
@@ -392,7 +392,7 @@ ul#nav li.current a{
 }
 
 .java{
-	width: 65%;
+	width: 75%;
 	-moz-animation: java 2s ease;
 	-webkit-animation: java 2s ease;
 }
@@ -409,8 +409,14 @@ ul#nav li.current a{
 	-webkit-animation: c 2s ease;
 }
 
+.cplusplus{
+	width: 15%;
+	-moz-animation: cplusplus 2s ease;
+	-webkit-animation: cplusplus 2s ease;
+}
+
 .html5{
-  	width: 90%;
+  	width: 80%;
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
@@ -429,7 +435,7 @@ ul#nav li.current a{
 
 @-moz-keyframes java{
 	0%{ width: 0px;  }
-	100%{ width: 65%;  }
+	100%{ width: 75%;  }
 }
 
 @-moz-keyframes java-swing{
@@ -442,9 +448,14 @@ ul#nav li.current a{
 	100%{ width: 80%;  }
 }
 
+@-moz-keyframes cplusplus{
+	0%{ width: 0px;  }
+	100%{ width: 15%;  }
+}
+
 @-moz-keyframes html5{
 	0%{ width: 0px;  }
-	100%{ width: 90%;  }
+	100%{ width: 80%;  }
 }
 
 @-moz-keyframes css{
@@ -459,7 +470,7 @@ ul#nav li.current a{
 
 @-webkit-keyframes java{
 	0%{ width: 0px;  }
-	100%{ width: 65%;  }
+	100%{ width: 75%;  }
 }
 
 @-webkit-keyframes java-swing{
@@ -472,9 +483,14 @@ ul#nav li.current a{
 	100%{ width: 80%;  }
 }
 
+@-webkit-keyframes cplusplus{
+	0%{ width: 0px;  }
+	100%{ width: 15%;  }
+}
+
 @-webkit-keyframes html5{
 	0%{ width: 0px;  }
-	100%{ width: 90%;  }
+	100%{ width: 80%;  }
 }
 
 @-webkit-keyframes css{
@@ -493,7 +509,7 @@ ul#nav li.current a{
 
 #portfolio{
 	background: #ebeeee;
-	padding-top: 90px;
+	padding-top: 50px;
 	padding-bottom: 60px;
 }
 
@@ -656,13 +672,13 @@ ul#nav li.current a{
 }
 
 .popup-modal .link-box{
-	padding: 18px 36px;
-	background: #111;
+	padding: 5px 38px;
+	background: #fff;
 	text-align: left;
 }
 
 .popup-modal .link-box a{
-	color: #fff;
+	color: #000000;
 	font: 11px/21px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
@@ -670,7 +686,9 @@ ul#nav li.current a{
 }
 
 .popup-modal a:hover{
+	background: #000;
 	color: #00CCCC;
+	padding: 10px;
 }
 
 .popup-modal a.popup-modal-dismiss{
