@@ -392,7 +392,7 @@ ul#nav li.current a{
 }
 
 .java{
-	width: 65%;
+	width: 75%;
 	-moz-animation: java 2s ease;
 	-webkit-animation: java 2s ease;
 }
@@ -429,7 +429,7 @@ ul#nav li.current a{
 
 @-moz-keyframes java{
 	0%{ width: 0px;  }
-	100%{ width: 65%;  }
+	100%{ width: 75%;  }
 }
 
 @-moz-keyframes java-swing{
@@ -459,7 +459,7 @@ ul#nav li.current a{
 
 @-webkit-keyframes java{
 	0%{ width: 0px;  }
-	100%{ width: 65%;  }
+	100%{ width: 75%;  }
 }
 
 @-webkit-keyframes java-swing{
