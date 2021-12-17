@@ -416,7 +416,7 @@ ul#nav li.current a{
 }
 
 .html5{
-  	width: 90%;
+  	width: 80%;
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
@@ -455,7 +455,7 @@ ul#nav li.current a{
 
 @-moz-keyframes html5{
 	0%{ width: 0px;  }
-	100%{ width: 90%;  }
+	100%{ width: 80%;  }
 }
 
 @-moz-keyframes css{
@@ -490,7 +490,7 @@ ul#nav li.current a{
 
 @-webkit-keyframes html5{
 	0%{ width: 0px;  }
-	100%{ width: 90%;  }
+	100%{ width: 80%;  }
 }
 
 @-webkit-keyframes css{
