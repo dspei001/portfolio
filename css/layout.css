@@ -35,7 +35,7 @@ header{
 	height: 800px;
 	min-height: 500px;
 	width: 100%;
-	background: #161415 url(https://cdn.wallpapersafari.com/14/59/wn2dz6.jpg) no-repeat top center;
+	background: #161415 url(https://www.wallpapers4u.org/wp-content/uploads/background_texture_spot_light_47030_1920x1200.jpg) no-repeat top center;
 	background-size: cover !important;
 	-webkit-background-size: cover !important;
 	text-align: center;
@@ -84,7 +84,7 @@ header .banner-text h3{
 
 header .banner-text h3 span,
 header .banner-text h3 a{
-	color: #00AAAA;
+	color: rgb(223, 207, 255);
 }
 
 header .banner-text hr{
@@ -210,7 +210,7 @@ ul#nav li a:active{
 }
 
 ul#nav li.current a{
-	color: #00AAAA;
+	color: rgb(150, 150, 255);
 	font-weight: bold;
 }
 
@@ -219,7 +219,7 @@ ul#nav li.current a{
 /* ------------------------------------------------------------------ */
 
 #about{
-	background: #2B2B2B;
+	background: #000000;
 	padding-top: 96px;
 	padding-bottom: 66px;
 	overflow: hidden;
@@ -246,8 +246,8 @@ ul#nav li.current a{
 
 #about .profile-pic{
 	position: relative;
-	width: 120px;
-	height: 120px;
+	width: 200px;
+	height: 200px;
 	border-radius: 100%;
 }
 
@@ -305,7 +305,7 @@ ul#nav li.current a{
 }
 
 #resume h1 span{
-	border-bottom: 3px solid #11ABB0;
+	border-bottom: 3px solid rgb(23, 27, 155);
 	padding-bottom: 6px;
 }
 
@@ -696,7 +696,7 @@ ul#nav li.current a{
 
 .popup-modal a:hover{
 	background: #000;
-	color: #00CCCC;
+	color: rgb(150, 150, 255);
 	padding: 10px;
 }
 
