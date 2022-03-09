@@ -410,7 +410,7 @@ ul#nav li.current a{
 }
 
 .cplusplus{
-	width: 30%;
+	width: 50%;
 	-moz-animation: cplusplus 2s ease;
 	-webkit-animation: cplusplus 2s ease;
 }
@@ -450,7 +450,7 @@ ul#nav li.current a{
 
 @-moz-keyframes cplusplus{
 	0%{ width: 0px;  }
-	100%{ width: 30%;  }
+	100%{ width: 50%;  }
 }
 
 @-moz-keyframes html5{
@@ -485,7 +485,7 @@ ul#nav li.current a{
 
 @-webkit-keyframes cplusplus{
 	0%{ width: 0px;  }
-	100%{ width: 30%;  }
+	100%{ width: 50%;  }
 }
 
 @-webkit-keyframes html5{
